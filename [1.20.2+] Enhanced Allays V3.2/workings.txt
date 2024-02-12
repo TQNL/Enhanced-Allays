@@ -1,9 +1,0 @@
-- Teleports allays to the nearest player if they are 64 blocks away from them, unless nametaged
-- Teleports allays to their noteblock if they are outside the 16m range and their timer runs out, unless nametaged
-  - handy in watery environments where allays are slower
-  - has suffication protection by teleporting them on top of the noteblock (there is always air above working noteblocks)
-  - has the following leash functionality to counter this noteblock feature
-- leashed allays cannot like noteblocks and thus follow the player
-- naming an allay "unname" causes it lose its customname
-- /trigger invulnerable_allays  makes your allays immortal
-  - trigger again to make them mortal again

@@ -1,6 +1,0 @@
-{
-    "pack":{
-        "pack_format": 17,
-        "description": "By ThijquintNL. check 'workings' file! Teleports allays to the nearest player or their noteblock if they are 64 blocks away from them, much like tamed wolves and cats"
-    }
-}
