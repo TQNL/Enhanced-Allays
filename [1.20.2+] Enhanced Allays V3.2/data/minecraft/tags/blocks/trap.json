@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:hopper",
+        "minecraft:composter",
+        "#minecraft:cauldrons",
+        "#minecraft:walls",
+        "#minecraft:fences",
+        "#minecraft:fence_gates"
+    ]
+}
