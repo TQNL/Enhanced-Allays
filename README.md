@@ -1,4 +1,3 @@
-# Enhanced-Allays
 video: https://youtu.be/Z_L3IO1kkhk?si=l_gVACMcQQD34nGv
 
 - Teleports allays to the their owner if they are 64 blocks away from them, unless nametaged
