@@ -1,13 +1,13 @@
 # Enhanced-Allays
 video: https://youtu.be/Z_L3IO1kkhk?si=l_gVACMcQQD34nGv
 
-- Teleports allays to the their owner if they are 64 blocks away from them, unless nametaged
+- Teleports allays to the their owner if they are 64 blocks away from them, unless nametaged or in a vehicle
 - Allays trapped in or above walls, fences, fence gates, composters, (filled) cauldrons and hoppers don't teleport ever
-- Teleports allays to their note block if they are outside the 16 m range and their timer runs out, unless nametaged
+- Teleports allays to their note block if they are outside the 16 m range and their timer runs out, unless nametaged or in a vehicle
   - handy in watery environments where allays are slower
   - has suffocation protection by teleporting them on top of the note block (there is always air above working note blocks)
   - has the following leash functionality to counter this note block feature
-- leashed allays cannot like note blocks and thus follow the player
+- allays leashed by players cannot like note blocks and thus follow the player
 - naming an allay "unname" causes it to lose its custom name
 - /trigger invulnerable_allays  makes your allays immortal
   - trigger again to make them mortal again
