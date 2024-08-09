@@ -7,8 +7,8 @@ execute as @e[type=allay,predicate=!tpallays:in_vehicle,tag=!tpallays_named] at 
 execute as @e[type=allay,predicate=!tpallays:in_vehicle,tag=!tpallays_named,nbt={Brain:{memories:{"minecraft:liked_noteblock_cooldown_ticks":{value:0}}}}] at @s unless block ~ ~ ~ #tpallays:trap unless block ~ ~-1 ~ #tpallays:trap run function tpallays:resetallaypos
 
 # leash
-execute as @e[type=minecraft:allay,nbt={leash:{}},nbt={Brain:{memories:{"minecraft:liked_noteblock":{value:{}}}}}] run function tpallays:leashallay
-execute as @e[type=minecraft:allay,nbt=!{leash:{}},tag=allayleashed] run function tpallays:unleashallay
+execute as @e[type=allay,nbt={Brain:{memories:{"minecraft:liked_noteblock":{value:{}}}}}] if data entity @s leash.UUID run function tpallays:leashallay
+execute as @e[type=allay,tag=allayleashed] unless data entity @s leash.UUID run function tpallays:unleashallay
 
 # unname - broken due to bug https://bugs.mojang.com/browse/MC-128225
 execute as @e[type=allay,nbt={CustomName:'"unname"'}] run function tpallays:unname
