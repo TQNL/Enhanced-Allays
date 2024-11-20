@@ -10,5 +10,5 @@ execute as @e[type=allay,predicate=!tpallays:in_vehicle,tag=!tpallays_named,nbt=
 execute as @e[type=allay,nbt={Brain:{memories:{"minecraft:liked_noteblock":{value:{}}}}}] if data entity @s leash.UUID run function tpallays:leashallay
 execute as @e[type=allay,tag=allayleashed] unless data entity @s leash.UUID run function tpallays:unleashallay
 
-# unname - broken due to bug https://bugs.mojang.com/browse/MC-128225
+# unname
 execute as @e[type=allay,nbt={CustomName:'"unname"'}] run function tpallays:unname
