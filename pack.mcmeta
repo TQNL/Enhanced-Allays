@@ -1,6 +1,10 @@
 {
-    "pack":{
-        "pack_format": 60,
-        "description": "By ThijquintNL. check 'readme' file! Teleports allays to the nearest player or their noteblock if they are 64 blocks away from them, much like tamed wolves and cats"
+  "pack": {
+    "description": "By ThijquintNL. check 'readme' file! Teleports allays to the nearest player or their noteblock if they are 64 blocks away from them, much like tamed wolves and cats",
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 57
     }
+  }
 }
