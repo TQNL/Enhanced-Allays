@@ -1,5 +1,5 @@
-# <remove custom name> command
-data remove entity @s CustomName
-tag @s remove tpallays_named
-data merge entity @s {PersistenceRequired:0b}
-give @p name_tag[custom_name={"text":"unname"}] 1
+# unname allay if named
+execute as @n[type=allay] if entity @s[tag=tpallays_named] run function tpallays:unname2
+
+# kill wolf armor placeholder
+kill @s
