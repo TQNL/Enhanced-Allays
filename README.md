@@ -12,7 +12,7 @@ video: https://youtu.be/Z_L3IO1kkhk?si=l_gVACMcQQD34nGv
 - /trigger invulnerable_allays  makes your allays immortal
   - trigger again to make them mortal again
 
-If server owners don't want immortal allays, then go into the data pack file > data > tpallays >  functions and remove invulnerable.mcfunction
+If server owners don't want immortal allays, can be disabled with `/function tpallays:toggle_invulnerability` (needs OP)
 
 ### notice
 - If you want to support small creators like me, you can turn off ad blocker.
