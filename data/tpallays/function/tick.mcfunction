@@ -4,6 +4,7 @@ execute as @e[type=allay,predicate=!tpallays:in_vehicle,tag=!tpallays_named] at 
 
 # tp to liked noteblock
 execute as @e[type=allay,predicate=!tpallays:in_vehicle,tag=!tpallays_named,nbt={Brain:{memories:{"minecraft:liked_noteblock_cooldown_ticks":{value:0}}}}] at @s unless block ~ ~ ~ #tpallays:trap unless block ~ ~-1 ~ #tpallays:trap run function tpallays:resetallaypos
+execute as @e[type=minecraft:allay] at @s if block ~ ~ ~ minecraft:note_block align xyz run tp @s ~0.5 ~1 ~0.5
 
 # leash
 execute as @e[type=allay,nbt={Brain:{memories:{"minecraft:liked_noteblock":{value:{}}}}}] if data entity @s leash.UUID run function tpallays:leashallay
